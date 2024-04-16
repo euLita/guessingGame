@@ -1,0 +1,33 @@
+programa {
+
+  //inicio função Menu Principal
+  funcao menuPrincipal(){
+    cadeia opcaoMenu="0" //variavel do tipo string
+    escreva ("\n:::::: Jogo de adivinhacao ...............................:::::: ")
+    escreva ("\n:::::: Escolha uma das opcoes abaixo:  ...................:::::: ")
+    escreva ("\n:::::: 1 - basico, 5 chances e 10 numeros ................:::::: ")
+    escreva ("\n:::::: 2 - medio, 7 chances e 50 numeros .................:::::: ")
+    escreva ("\n:::::: 3 - avançado, 8 chances e 100 numeros .............:::::: ")
+    escreva ("\n:::::: Entre com uma opcao ou qualquer tecla para sair ...:::::: ")
+
+    //er valor
+    leia(opcaoMenu)
+    escreva(" opcao escolhida..: ", opcaoMenu)
+
+    //validar as opcoes
+    se(opcaoMenu == "1" ou opcaoMenu =="2" ou opcaoMenu=="3"){
+      limpa()
+      escreva(" Chama o jogo ")
+    }senao{
+      limpa()
+      escreva(" saiu do jogo ")
+      //não acontece nada, ou melhor sai do jogo
+    }
+
+  }//fim Menu
+
+  funcao inicio() {
+    menuPrincipal()  
+  }
+
+}
