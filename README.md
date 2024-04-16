@@ -1,2 +1,3 @@
-# guessingGame
-with Portugol
+guessingGame
+-
+> with Portugol
