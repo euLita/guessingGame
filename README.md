@@ -1,3 +1,3 @@
-GuessingGame
+Guessing Game
 -
 > with Portugol
